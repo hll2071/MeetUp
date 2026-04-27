@@ -17,33 +17,6 @@ Next.js 14 + Supabase + Vercel 풀스택 앱
 - 약속 확정/삭제
 - 실시간으로 모든 멤버의 가능 날짜 확인
 
-## 시작하기
-
-### 1. Supabase 프로젝트 생성
-1. [supabase.com](https://supabase.com) 에서 새 프로젝트 생성
-2. SQL Editor에서 `supabase/schema.sql` 실행
-3. Project URL과 anon key 복사
-
-### 2. 환경변수 설정
-`.env.local` 파일 생성:
-```
-NEXT_PUBLIC_SUPABASE_URL=your_project_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key
-```
-
-### 3. 로컬 실행
-```bash
-npm install
-npm run dev
-```
-
-### 4. Vercel 배포
-```bash
-npm install -g vercel
-vercel
-# 환경변수 설정 (Vercel 대시보드 또는 vercel env add)
-```
-
 ## 프로젝트 구조
 ```
 meetup-app/
